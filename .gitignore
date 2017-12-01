@@ -1,0 +1,7 @@
+.idea
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+.gradle
+build/
