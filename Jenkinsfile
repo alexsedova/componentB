@@ -1,9 +1,9 @@
 #!groovy
-node("392641ad9392-3acb3aef") {
+node("master") {
     properties([
          parameters([
            string(
-             defaultValue: "componentB",
+             defaultValue: "",
              description: "list of components",
              name: 'componentsToUpdate'
            )
